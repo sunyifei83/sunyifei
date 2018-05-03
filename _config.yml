@@ -102,11 +102,11 @@ friends: [
         title: "qiniu",
         href: "https://:wwww.qiniu.com"
     },{
-        title: "简书·BY",
+        title: "简书·YF",
         href: "http://www.jianshu.com/u/111"
     },{
-        title: "Apple",
-        href: "https://apple.com"
+        title: "K8s",
+        href: "https://github.com/kubernetes/kubernetes"
     },{
         title: "Qiniu Developer",
         href: "https://developer.qiniu.com/"
