@@ -12,7 +12,7 @@ github_repo: "https://github.com/sunyifei83/sunyifei83.github.io.git" # you code
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/about-YF.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/about-YF.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -100,7 +100,7 @@ service-worker: true
 friends: [
     {
         title: "qiniu",
-        href: "https://:wwww.qiniu.com"
+        href: "https://www.qiniu.com/"
     },{
         title: "简书·YF",
         href: "http://www.jianshu.com/u/111"
