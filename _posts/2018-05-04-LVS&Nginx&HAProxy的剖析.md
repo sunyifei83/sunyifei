@@ -4,7 +4,7 @@ title:      LVS&Nginx&HAProxy的架构剖析
 subtitle:   工作原理和适用场景分析
 date:       2018-05-04
 author:     YF
-header-img: img/post-bg-BJJ.jpg
+header-img: img/post-bg-lvs-nginx.jpg
 catalog: true
 tags:
     - LVS
