@@ -11,10 +11,6 @@ tags:
     - 容器编排
     - 容器化
 ---
-> * 2013年docker发布
-> * 容器是如何保障应用间的隔离性，以及减少应用对部署环境的依赖性
-> * Docker容器如何在Kubernetes系统中应用
-> * Kubernetes如何提高开发人员和系统管理员的工作效率
 
 Kubernetes这个单词源自希腊文，字面意思是“舵手”，听上去就是作为掌舵的人从而带领我们驾驶者装满容器箱子的船安全地到达未知水域。社区简称为k8s。 ![alt](http://www.ruanyifeng.com/blogimg/asset/2018/bg2018020901.png)
 。o(╯□╰)o 瞅瞅docker的图标确实够形象~
