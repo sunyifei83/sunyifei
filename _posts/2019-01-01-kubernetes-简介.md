@@ -16,12 +16,13 @@ tags:
 > * Docker容器如何在Kubernetes系统中应用
 > * Kubernetes如何提高开发人员和系统管理员的工作效率
 
-Kubernetes这个单词源自希腊文，字面意思是“舵手”，听上去就是作为掌舵的人从而带领我们驾驶者装满容器箱子的船安全地到达未知水域。o(╯□╰)o 瞅瞅docker的图标确实够形象的。 ![alt](http://www.ruanyifeng.com/blogimg/asset/2018/bg2018020901.png)
+Kubernetes这个单词源自希腊文，字面意思是“舵手”，听上去就是作为掌舵的人从而带领我们驾驶者装满容器箱子的船安全地到达未知水域。社区简称为k8s。 ![alt](http://www.ruanyifeng.com/blogimg/asset/2018/bg2018020901.png)
+。o(╯□╰)o 瞅瞅docker的图标确实够形象~
 
 
 > **备注** Docker是一个开放源代码软件项目，让应用程序部署在软件货柜下的工作可以自动化进行，借此在Linux操作系统上，提供一个额外的软件抽象层，以及操作系统层虚拟化的自动管理机制。目前Kubernetes和docker的组合方案应用非常广泛。
 
-Kubernetes作为容器编排系统，可以妥善地管理分布式应用部署和业务流量，从而高效地组织容器和服务，和docker搭档堪称完美。docker在13年发布初版后最初使用局限在社区开发者中，在14年6月Kubernetes发布初版。
+Kubernetes作为容器编排系统，可以妥善地管理分布式应用部署和业务流量，从而高效地组织容器和服务，和docker搭档堪称完美。docker在13年发布初版后最初使用局限在社区开发者中，在14年6月Kubernetes发布初版后两者快速结合，很多从mesos+docker调整为k8s+docker。
 
 
 ```
