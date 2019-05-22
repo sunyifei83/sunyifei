@@ -11,24 +11,64 @@ tags:
     - 容器编排
     - 容器化
 ---
+> * 2013年docker发布
+> * 容器是如何保障应用间的隔离性，以及减少应用对部署环境的依赖性
+> * Docker容器如何在Kubernetes系统中应用
+> * Kubernetes如何提高开发人员和系统管理员的工作效率
+
+Kubernetes这个单词源自希腊文，字面意思是“舵手”，听上去就是作为掌舵的人从而带领我们驾驶者装满容器箱子的船安全地到达未知水域。o(╯□╰)o 瞅瞅docker的图标确实够形象的。 ![alt](http://www.ruanyifeng.com/blogimg/asset/2018/bg2018020901.png)
+
+
+> **备注** Docker是一个开放源代码软件项目，让应用程序部署在软件货柜下的工作可以自动化进行，借此在Linux操作系统上，提供一个额外的软件抽象层，以及操作系统层虚拟化的自动管理机制。目前Kubernetes和docker的组合方案应用非常广泛。
+
+Kubernetes作为容器编排系统，可以妥善地管理分布式应用部署和业务流量，从而高效地组织容器和服务，和docker搭档堪称完美。docker在13年发布初版后最初使用局限在社区开发者中，在14年6月Kubernetes发布初版。
+
+
+```
+Docker (container engine) 
+原作者	Solomon Hykes
+开发者	Docker, Inc.
+初始版本	2013年3月13日
+稳定版本	
+18.09.6 （2019年5月6日）
+预览版本	
+18.09.6-rc1 （2019年5月2日）
+源代码库	
+github.com/docker/docker-ce
+编辑维基数据链接
+编程语言	Go
+操作系统	Linux、Windows、macOS
+系统平台	x86-64、ARM、s390x、ppc64le
+类型	操作系统层虚拟化
+许可协议	可执行档：免费增值软件即服务
+源代码：Apache许可证 2.0
+网站	www.docker.com
+```
+
+
+```
+Kubernetes 
+初始版本	2014年6月7日，​
+稳定版本	
+1.10.3[2] （2018年5月21日）
+源代码库	
+github.com/kubernetes/kubernetes
+编辑维基数据链接
+编程语言	Go
+操作系统	跨平台
+类型	集群管理
+许可协议	Apache许可证 2.0
+网站	kubernetes.io
+```
+
+
+
+
 
 > * 应用的开发和部署方式在近几年的发展趋势
 > * 容器是如何保障应用间的隔离性，以及减少应用对部署环境的依赖性
 > * Docker容器如何在Kubernetes系统中应用
 > * Kubernetes如何提高开发人员和系统管理员的工作效率
-
-Kubernetes这个单词源自希腊文，字面意思是“舵手”，听上去就是作为掌舵的人从而带领我们驾驶者装满docker的船安全地到达未知水域。囧。。 ![alt](http://www.ruanyifeng.com/blogimg/asset/2018/bg2018020901.png)
-确实够形象的。
-
-
-。Kubernetes作为容器编排系统，可以妥善地管理分布式应用部署和业务流量，从而高效地组织容器和服务。
-
-
-
-
-
-
-
 
 Kubernetes作为数据中心操作系统，在我们设计软件系统时，尽量降低我们在底层网络和硬件设施上的心理负担。
 
